@@ -5,10 +5,11 @@ jdk:
   - oraclejdk8
 notifications:
   email:
-    - dotty-reports@googlegroups.com
+    - salvisbergvera@gmail.com
 branches:
   only:
     - master
+    - test
 before_install:
   - cd ..
   - git clone https://github.com/scala/scala.git
